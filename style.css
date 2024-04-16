@@ -1,0 +1,156 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+:root{
+    --cor-amarela: #FFD900;
+    --cor-roxa: #514988;
+    --cor-branca: #ffffff;
+    --cor-rosa: #E33881;
+
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+#home {
+    background-color: #FFD900;
+    padding: 25px;
+}
+
+#logo{
+    margin-left: 4%;
+}
+                /* DIV-pai */
+#bloco-principal{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+#centro{
+    background-color: var(--cor-roxa);    
+    text-align: center;  
+    padding: 60px;
+    width: 95%;
+}
+
+#estilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#cronometro{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    margin-top: 55px ;
+
+}
+
+#titulo-ccxp {
+    color: var(--cor-rosa);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#video{
+    margin-top: 30px;
+}
+/* PARTE CENTRAL*/
+#titulo{
+    color: var(--cor-amarela);
+    
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#substitulo{
+    color:#ffffff ;
+    font-size: 21px;
+    margin-bottom: 40px;
+    
+}
+
+#texto{
+    font-size: 18px;
+    color: white;
+}
+
+/*Parte do final*/
+
+#titulo2{
+    color: var(--cor-amarela);
+    margin-left: 5%;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#ingresso{
+    display: flex;
+    margin-left: 15%;
+}
+
+#ingresso1{
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    font-size: 20px;
+    font-weight: 80px;
+
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    
+    background-color: var(--cor-roxa);
+    color: var(--cor-branca);
+}
+
+button:hover{
+    color: #FFD900;
+    cursor: pointer;
+}
+
+
+#botao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 15%;
+}
+
+/*Cronometro*/
+
+#dia{
+    color: var(--cor-roxa);
+    font-size: 50px;
+}
+
+#hora{
+    color: var(--cor-roxa);
+    font-size: 50px;
+}
+
+#minuto{
+    color: var(--cor-roxa);
+    font-size: 50px;
+}
+
+#segundo{
+    color: var(--cor-roxa);
+    font-size: 50px;
+}
+
+.letra{
+    color: var(--cor-roxa);
+    text-align: center;
+}
